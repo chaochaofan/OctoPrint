@@ -1,0 +1,6 @@
+/:
+- _count: 7
+  _timestamp: 1677644802.8518739
+  base_url: http://127.0.0.1:5000/
+  path: /
+  query_string: l10n=en

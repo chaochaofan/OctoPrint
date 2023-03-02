@@ -1,0 +1,13 @@
+_version: 2
+admin:
+  active: true
+  apikey: null
+  groups:
+  - users
+  - admins
+  password: $argon2id$v=19$m=65536,t=3,p=4$ubdWitGa816L8R4DoNT6/w$5lLgcrb3l6bkJCMgCsMf7FgkRXtEipVBd6mrX4pDvhA
+  permissions: []
+  roles:
+  - user
+  - admin
+  settings: {}
