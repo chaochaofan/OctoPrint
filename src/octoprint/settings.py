@@ -2346,7 +2346,10 @@ def _default_basedir(applicationName):
 
         return appdirs.user_data_dir(applicationName, "")
     elif sys.platform == "win32":
-        return os.path.join(os.environ["APPDATA"], applicationName)
+        # debug 测试, 设置 Windows 系统的配置文件目录在项目根目录下
+        print('aaa', os.path.abspath(__name__))
+        return os.path.join(os.path.abspath(__name__), applicationName)
+        # return os.path.join(os.environ["APPDATA"], applicationName)
     else:
         return os.path.expanduser(os.path.join("~", "." + applicationName.lower()))
 
