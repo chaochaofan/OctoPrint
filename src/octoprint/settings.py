@@ -2351,7 +2351,8 @@ def _default_basedir(applicationName):
         return os.path.join(os.path.abspath(__name__), applicationName)
         # return os.path.join(os.environ["APPDATA"], applicationName)
     else:
-        return os.path.expanduser(os.path.join("~", "." + applicationName.lower()))
+        return os.path.join(os.path.abspath(__name__), applicationName)
+        # return os.path.expanduser(os.path.join("~", "." + applicationName.lower()))
 
 
 def _validate_folder(folder, create=True, check_writable=True, deep_check_writable=False):
