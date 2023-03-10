@@ -2351,8 +2351,8 @@ def _default_basedir(applicationName):
         return os.path.join(os.environ["USERPROFILE"], f'.{applicationName.lower()}_dev')
         # return os.path.join(os.environ["APPDATA"], applicationName)
     else:
-        print('aaa', os.path.expanduser(os.path.join("~", "." + applicationName.lower() + '_dev')))
-        return os.path.expanduser(os.path.join("~", "." + applicationName.lower() + '_dev'))
+        print('aaa', os.path.join(os.path.abspath(__file__).split('src')[0], 'settings_dev'))
+        return os.path.join(os.path.abspath(__file__).split('src')[0], 'settings_dev')
         # return os.path.expanduser(os.path.join("~", "." + applicationName.lower()))
 
 
