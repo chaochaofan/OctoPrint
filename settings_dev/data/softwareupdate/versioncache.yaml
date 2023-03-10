@@ -1,0 +1,55 @@
+__version: 2.0.0.dev1836+g96b559c59.dirty
+file_check:
+  available: false
+  compatible: true
+  disabled: false
+  error: null
+  hash: 1fd5482b4fa54235531810fa4bf95620
+  information:
+    local:
+      name: 2021.2.23
+      value: 2021.2.23
+    needs_online: true
+    remote:
+      name: 2021.2.23
+      release_notes: https://github.com/OctoPrint/OctoPrint-FileCheck/releases/tag/2021.2.23
+      value: 2021.2.23
+  online: true
+  possible: true
+  timestamp: 1678439855.030136
+firmware_check:
+  available: false
+  compatible: true
+  disabled: false
+  error: null
+  hash: 2cc0c5c664767763a036f68d2318d063
+  information:
+    local:
+      name: 2021.10.11
+      value: 2021.10.11
+    needs_online: true
+    remote:
+      name: 2021.10.11
+      release_notes: https://github.com/OctoPrint/OctoPrint-FirmwareCheck/releases/tag/2021.10.11
+      value: 2021.10.11
+  online: true
+  possible: true
+  timestamp: 1678439855.0317814
+octoprint:
+  available: true
+  compatible: true
+  disabled: false
+  error: null
+  hash: 60164cd0eb60a0185d4cd4be6d342abf
+  information:
+    local:
+      name: 2.0.0.dev1836+g96b559c59.dirty
+      value: 2.0.0.dev1836+g96b559c59.dirty
+    needs_online: true
+    remote:
+      name: 1.8.7
+      release_notes: https://github.com/OctoPrint/OctoPrint/releases/tag/1.8.7
+      value: 1.8.7
+  online: true
+  possible: true
+  timestamp: 1678439855.0325155

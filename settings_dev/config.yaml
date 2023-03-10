@@ -1,0 +1,21 @@
+api:
+  key: 829414547BCE4E79A893DE3C8658D984
+plugins:
+  announcements:
+    _config_version: 1
+  discovery:
+    upnpUuid: b5ee9da8-ad14-4133-b528-578dc57a8fc9
+  errortracking:
+    unique_id: a1c2d9bd-031b-4959-9a07-279f2bc3225e
+  gcodeviewer:
+    _config_version: 1
+  softwareupdate:
+    _config_version: 9
+  tracking:
+    unique_id: 6d5bc7ff-1a32-42b4-a3c1-c66d64b6793b
+  virtual_printer:
+    _config_version: 1
+printerProfiles:
+  default: _default
+server:
+  secretKey: IrBn4mMrLUhwqdpQDgdb4JC8igNl6Iki
